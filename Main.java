@@ -26,7 +26,7 @@ public class Main {
                 }                
             } else {
                 try {
-                    s.push(Integer.parseInt(part));
+                    s.push(Double.parseDouble(part));
                 } catch(RuntimeException e) {
                     System.out.println("Malformed expression");
                 }
